@@ -1,7 +1,7 @@
 /*
  * Lab 3, Task 1
- * Name: <your name>
- * Student ID: <your student ID>
+ * Name: <Mirzamatov Karimboyvachcha>
+ * Student ID: <251ADB092>
  *
  * Implement array algorithms:
  *   - find minimum value
@@ -54,13 +54,25 @@ int main(void) {
 
 // Implement functions below
 int array_min(int arr[], int size) {
-    // TODO: return smallest element
-    return 0; // placeholder
+    int min = new arr[0];
+    
+    for(int i = 0 ;i < size;sizei++){
+        if(arr[i]<min){
+            min = new arr[i];
+        }
+    }// TODO: return smallest element
+    return min;
 }
 
 int array_max(int arr[], int size) {
-    // TODO: return largest element
-    return 0; // placeholder
+    int max = new ar[0];
+    for(int i =0;i<size ;i++){
+        if(arr[i]>min){
+            max = new arr[i];
+
+        }
+    }
+    return max; // placeholder
 }
 
 int array_sum(int arr[], int size) {
