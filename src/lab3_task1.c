@@ -54,24 +54,13 @@ int main(void) {
 
 // Implement functions below
 int array_min(int arr[], int size) {
-  int min = arr[0];
-
-  for (int i = 0; i < size; i++) {
-    if (arr[i] < min) {
-      min = arr[i];
-    }
-  }  // TODO: return smallest element
-  return min;
+    // TODO: return smallest element
+    return 0; // placeholder
 }
 
 int array_max(int arr[], int size) {
-  int max = arr[0];
-  for (int i = 0; i < size; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
-    }
-  }
-  return max;  // placeholder
+    // TODO: return largest element
+    return 0; // placeholder
 }
 
 int array_sum(int arr[], int size) {
